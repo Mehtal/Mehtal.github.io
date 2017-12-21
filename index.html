@@ -1,424 +1,325 @@
 <!DOCTYPE html>
-<html>
-    <head>
-     <title>Darinet Abnidari man plasti</title>
+<html lang="en">
+   <head>
+      <title>TaxiEpress - find a ride anywhere anytime </title>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Bootstrap Core CSS -->     
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-   
-        <!-- Custom Fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Amiri&amp;subset=arabic" rel="stylesheet"> 
-
-    <!-- Theme CSS -->       
-    <link href="css/main.css" rel="stylesheet">
-    <!-- Animate CSS -->
-    <link href="css/animate.css" rel="stylesheet">
-      
-    </head>
-
-
-<body>
-<!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="{% url 'home"><i class="fa fa-globe" aria-hidden="true"></i>
-Abni Dari<span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span></a>
-
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom Fonts -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+      <!-- Theme CSS -->       
+      <link href="css/main.css" rel="stylesheet">
+      <!-- Animate CSS -->
+      <link href="css/animate.css" rel="stylesheet">
+   </head>
+   <body>
+      <header class="header-main navbar-fixed-top">
+         <div class="top-bar">
+            <!-- top bar start -->
+            <div class="container">
+               <ul class="social-links pull-left list-inline">
+                  <li><a class="fa fa-facebook text-primary"></a></li>
+                  <li><a class="fa fa-twitter text-primary"></a></li>
+                  <li><a class="fa fa-instagram text-primary"></a></li>
+                  <li><a class="fa fa-linkedin text-primary"></a></li>
+               </ul>
+               <ul class="list-inline cal-num pull-right">
+                  <li><a class="fa fa-phone fa-fw"></a>1-845-713-0258</li>
+                  <li><a class="fa fa-phone fa-fw"></a>1-315-678-3316</li>
+                  <li><a class="fa fa-phone fa-fw"></a>1-315-707-1921</li>
+               </ul>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
+         </div>
+         <!-- top bar ends -->
+         <!-- Navigation -->
+         <div id="mainNav" class="navbar navbar-default navbar-custom ">
+            <div class="container">
+               <!-- Brand and toggle get grouped for better mobile display -->
+               <div class="navbar-header page-scroll">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                  </button>
+                  <ul class="tab-icon pull-right list-inline">
+                     <li><a href="#home"><img src="img/home.png" alt="Home"></a></li>
+                     <li><a href="#service"><img src="img/car-service.png" alt="Service"></a></li>
+                     <li><a href="#download"><img src="img/download.png" alt="Download"></a></li>
+                     <li><a href="#chauffers"><img src="img/chauffer.png" alt="Chauffers"></a></li>
+                     <li><a href="#testimonial"><img src="img/testimonials.png" alt="Testimonials"></a></li>
+                  </ul>
+                  <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo1.png" alt="logo here">Taxi Express</a>
+               </div>
+               <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                     <li class="hidden">
                         <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#staffpick">بعض الأراء</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">عمالنا</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">مجلاتنا</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">خدماتنا</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#page-top">الرئيسبة</a>
-                    </li>
-                </ul>
+                     </li>
+                     <li>
+                        <a class="page-scroll" href="#home">Home</a>
+                     </li>
+                     <li>
+                        <a class="page-scroll" href="#service">Service</a>
+                     </li>
+                     <li>
+                        <a class="page-scroll" href="#download">Download</a>
+                     </li>
+                     <li>
+                        <a class="page-scroll" href="#driver">Chauffers</a>
+                     </li>
+                     <li>
+                        <a class="page-scroll" href="#testimonial">Testimonial</a>
+                     </li>
+                  </ul>
+               </div>
+               <!-- /.navbar-collapse -->
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="header-overlay">
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">أبني داري</div>
-                <div class="intro-heading">جد أفضل العمال في كل المجلات من المنزل</div>
-                <a href="{% url 'home" class="btn-StartNow btn btn-xl wow fadeInUp">تسجيل الدخول</a>
-            </div>
-        </div>
-        </div>  
-    </header>
-    <!-- Services Section -->
-    <section id="services" data-wow-duration="2s" data-wow-delay="5s">
-        <div class="container">
+            <!-- /.container-fluid -->
+         </div>
+      </header>
+      <!-- Header /- -->
+      <!-- home -->
+      <section id="home">
+         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">خدماتنا</h2>
-                    <h3 class="section-subheading text-muted">جدأفضل و أقرب عمال منك من أي مكان و في أي مكان </h3>
-                </div>
+               <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+                  <!-- Overlay -->
+                  <div class="overlay"></div>
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                     <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+                     <li data-target="#bs-carousel" data-slide-to="1"></li>
+                     <li data-target="#bs-carousel" data-slide-to="2"></li>
+                  </ol>
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                     <div class="item slides active">
+                        <div class="slide-1"></div>
+                        <div class="main-content">
+                           <h1>TAXI EXPRESS</h1>
+                           <h3>A reliable way to travel</h3>
+                           <button class="btn btn-primary btn-lg">Call US Now</button>
+                        </div>
+                     </div>
+                     <div class="item slides">
+                        <div class="slide-2"></div>
+                        <div class="main-content">
+                           <h1>EXPERIENCED</h1>
+                           <h3>Drivers On Your Sercie</h3>
+                           <button class="btn btn-primary btn-lg">Check Our Chauffers</button>
+                        </div>
+                     </div>
+                     <div class="item slides">
+                        <div class="slide-3"></div>
+                        <div class="main-content">
+                           <h1>Services</h1>
+                           <h3>24 / 7 Taxi Service To Any Where Around The City</h3>
+                           <button class="btn btn-primary btn-lg">See Our Services</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md-3 wow fadeInLeft" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeft;" data-wow-duration="1s" data-wow-delay=".5s">
-                    <span class="fa-stack fa-4x">
+         </div>
+      </section>
+      <!-- /home -->
+      <!-- service -->
+      <section id="service">
+         <div class="service-wrap container-fluid">
+            <!-- container -->
+            <div class="row">
+               <div class="cab-service col-md-12">
+                  <!-- service top text-->
+                  <h1>Our Services</h1>
+               </div>
+               <!-- /service top text-->
+               <div class="cab-photo col-md-4 wow fadeInLeft">
+                  <img src="img/service-1.png" class="img-thumbnail" alt="Cab Photo">
+               </div>
+               <div class="pickup col-md-8 wow fadeInRight">
+                  <div class="row text-center">
+                     <div class="col-md-6">
+                        <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa  fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">جد تقني / متخصص</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-3 wow fadeInDown" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInDown;" data-wow-duration="1s" data-wow-delay=".5s">
-                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-home fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">Home Pickup</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                     </div>
+                     <div class="col-md-6">
+                        <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-plane fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">Air port pickup</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                     </div>
+                     <div class="col-md-6">
+                        <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">احصل على أفضل صفقة</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-3 wow fadeInUp" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInUp;" data-wow-duration="1s" data-wow-delay=".5s">
-                    <span class="fa-stack fa-4x">
+                        </span>
+                        <h4 class="service-heading">Real Time Tracker</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                     </div>
+                     <div class="col-md-6">
+                        <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-handshake-o fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">أنهي العمل</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-3 wow fadeInRight" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;" data-wow-duration="1s" data-wow-delay=".5s">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">قيم ليتسفيد الأخرون</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
+                        <i class="fa fa-cc-visa fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">We accepte all sort of payment</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </section>
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">مجلاتنا</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
+            <!--/row -->
+         </div>
+      </section>
+      <!-- download -->
+      <section  id="download" >
+         <div class="row">
+            <div class="col-md-6 wow fadeInLeft" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeft;" data-wow-duration="1s" data-wow-delay=".5s">
+               <div class="app-text">
+                  <h2>Download from App stores</h2>
+                  <p>Available for Apple and Android</p>
+               </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i>abni dari</i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Lorem Ipsum</h4>
-                        <p class="text-muted">Lorem Ipsum</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i>abni dari</i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Lorem Ipsumk</h4>
-                        <p class="text-muted">Lorem Ipsum</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i>abni dari</i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Lorem Ipsum</h4>
-                        <p class="text-muted">Lorem Ipsum</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i>abni dari</i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Lorem Ipsum</h4>
-                        <p class="text-muted">Lorem Ipsum</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i>abni dari</i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Lorem Ipsum</h4>
-                        <p class="text-muted">Lorem Ipsum</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i>abni dari</i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Lorem Ipsum</h4>
-                        <p class="text-muted">Lorem Ipsum</p>
-                    </div>
-                </div>
+            <div class="apps col-md-3 wow fadeInUpBig">
+               <img src="img/apple-store.png" class="img-thumbnail" alt="apple store">
             </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
+            <div class="apps col-md-3 wow fadeInUpBig">
+               <img src="img/google-play.png" class="img-thumbnail" alt="apple store">
+            </div>
+         </div>
+         <!-- /container -->
+      </section>
+      <!-- /download -->
+      <!-- Team Section -->
+      <section id="driver">
+         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">عمالنا</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
+               <div class="col-lg-12 text-center cab-service">
+                  <h1 class="section-heading">Lead Drivers</h1>
+                  <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+               </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li wow fadeInLeft" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeft;" data-wow-duration="1s" data-wow-delay=".5s">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/workers/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>عبد الكريم</h4>
-                                    <h4 class="subheading">أبني داري موقع هايل</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
+               <div class="col-sm-4">
+                  <div class="driver-member">
+                     <img src="img/4.jpg" class="img-responsive img-circle" alt="">
+                     <h4>Brian C. Rodriguez</h4>
+                     <p class="text-muted">Lead Designer</p>
+                     <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li class="timeline-inverted" wow fadeInRight" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;" data-wow-duration="1s" data-wow-delay=".5s">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/workers/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>كمال</h4>
-                                    <h4 class="subheading">أبني داري موقع هايل</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li wow fadeInLeft" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeft;" data-wow-duration="1s" data-wow-delay=".5s">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/workers/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>أمين</h4>
-                                    <h4 class="subheading">أبني داري موقع هايل</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
                         </li>
-                        <li class="timeline-inverted" wow fadeInRight" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;" data-wow-duration="1s" data-wow-delay=".5s">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/workers/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>محمد</h4>
-                                    <h4 class="subheading">أبني داري موقع هايل</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                  <div class="driver-member">
+                     <img src="img/5.jpg" class="img-responsive img-circle" alt="">
+                     <h4>Jose J. Herron</h4>
+                     <p class="text-muted">Lead Marketer</p>
+                     <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
                         </li>
-                        
-                    </ul>
-                </div>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                  <div class="driver-member">
+                     <img src="img/6.jpg" class="img-responsive img-circle" alt="">
+                     <h4>Todd E. Adams</h4>
+                     <p class="text-muted">Lead Developer</p>
+                     <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
             </div>
-        </div>
-    </section>
-
-    <!-- staffpicks -->
-        <section class="staffpick" id="staffpick">
-        
-            <div class="staffpick-overlay">
-            
-                <div class="container">
-                
-                    <div class="row">
-                    
-                        <div class="col-md-12">
-                        
-                        
-                            <div id="carousel-staffpick" class="carousel slide" data-ride="carousel">
-                            
-                            
-                                <!-- indicators -->
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carousel-staffpick" data-slide-to="0" ></li>
-                                    <li data-target="#carousel-staffpick" data-slide-to="1" class="active"></li>
-                                    <li data-target="#carousel-staffpick" data-slide-to="2"></li>
-                                </ol>
-                                
-                                
-                                <!-- wrapper for slides -->
-                                <div class="carousel-inner">
-                                
-                                
-                                    <!-- item 01 -->
-                                    <div class="item  text-center">
-                                    
-                                    
-                                        <img src="img/1.jpg" alt="image" class="center-block">>
-                                        
-                                        <div class="staffpick-caption">
-                                        
-                                            <h2>حورية</h2>
-                                            <h4><span>أبني داري </span>موقع هايل</h4>
-                                            <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.”</p>
-                                        
-                                        </div>
-                                        
-                                    
-                                    </div>
-                                    
-                                    <!-- item 02 -->
-                                    <div class="item active text-center">
-                                    
-                                    
-                                        <img src="img/2.jpg" alt="image" class="center-block">>
-                                        
-                                        <div class="staffpick-caption">
-                                        
-                                            <h2>الزهرة</h2>
-                                            <h4><span>أبني داري </span>موقع هايل</h4>
-                                            <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.”</p>
-                                        
-                                        </div>
-                                        
-                                    
-                                    </div>
-                                    
-                                    
-                                    <!-- item 03 -->
-                                    <div class="item text-center">
-                                    
-                                    
-                                        <img src="img/3.jpg" alt="image" class="center-block">>
-                                        
-                                        <div class="staffpick-caption">
-                                        
-                                            <h2>جعفر</h2>
-                                            <h4><span>أبني داري </span>موقع هايل</h4>
-                                            <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.”</p>
-                                        
-                                        </div>
-                                        
-                                    
-                                    </div>
-                                    
-                                    
-                                    
-                                
-                                </div>
-                                
-                                
-                            </div>
-                        
-                        
-                        
+            <div class="row">
+               <div class="col-lg-8 col-lg-offset-2 text-center">
+                  <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Testimonials -->
+      <section class="testimonial" id="testimonial">
+         <div class="testimonial-overlay">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12 wow bounceInDown">
+                     <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
+                        <!-- indicators -->
+                        <ol class="carousel-indicators">
+                           <li data-target="#carousel-testimonial" data-slide-to="0" class="active"></li>
+                           <li data-target="#carousel-testimonial" data-slide-to="1"></li>
+                           <li data-target="#carousel-testimonial" data-slide-to="2"></li>
+                        </ol>
+                        <!-- wrapper for slides -->
+                        <div class="carousel-inner">
+                           <!-- item 01 -->
+                           <div class="item active text-center">
+                              <img src="img/c03.png" alt="testimonial" class="center-block">
+                              <div class="testimonial-caption">
+                                 <h2>Paul</h2>
+                                 <h4><span> TaxiExpress Saved me </span>Home Pickup</h4>
+                                 <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.”</p>
+                              </div>
+                           </div>
+                           <!-- item 02 -->
+                           <div class="item text-center">
+                              <img src="img/c04.png" alt="testimonial" class="center-block">
+                              <div class="testimonial-caption">
+                                 <h2>Justina</h2>
+                                 <h4><span> TaxiExpress Saved me </span>Home Pickup</h4>
+                                 <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.”</p>
+                              </div>
+                           </div>
+                           <!-- item 03 -->
+                           <div class="item text-center">
+                              <img src="img/c05.png" alt="testimonial" class="img-circle center-block">
+                              <div class="testimonial-caption">
+                                 <h2>Irene</h2>
+                                 <h4><span> TaxiExpress Saved me </span>Home Pickup</h4>
+                                 <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.”</p>
+                              </div>
+                           </div>
                         </div>
-                        
-                        
-                    </div>
-                
-                
-                </div>
-            
-            
+                     </div>
+                  </div>
+               </div>
             </div>
-        
-        
-        
-        </section>
-        <footer class="footer">
-             <p>Copyright (C) 2017</p>
-        </footer>
-        <!-- Bootstrap core JS-->   
-       
-        <script src="js/jquery-3.1.1.min.js"></script>
-         <script src="js/bootstrap.min.js"></script> 
-        <!-- Add wow js lib -->
-        <script src="js/wow.min.js"></script>
-        <script>
-              new WOW().init();
-              </script>
-     
-             <!-- Bx Slider JS -->
-        <script src="js/jquery.bxslider.min.js"></script>
-               <!-- Custom  nav-bar Js 
-        <script src="js/custom.js"></script> -->
-        <script language="JavaScript" type="text/javascript">
-  $(document).ready(function(){
-    $('.carousel').carousel({
-      interval: 2000
-    })
-  });    
-</script>
-      
-</body>
+         </div>
+      </section>
+      <!-- Testimonials -->
+      <footer class="footer text-primary">
+         <p>Copyright (C) 2016</p>
+      </footer>
+      <!-- main js files -->
+      <script src="js/jquery-3.1.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script> 
+      <!-- custom js -->
+      <script src="js/custom.js"></script>
+      <script src="js/wow.min.js"></script>
+   </body>
 </html>
