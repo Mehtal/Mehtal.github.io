@@ -1,6 +1,9 @@
 $col1 : #2C3E50;
 $col2 : #F7CA18;
 $text-muted : #ccc;
+a {
+	color: $col2;
+}
 .custom-h1 {
 	font-size: 60px;
     font-weight: 600;
