@@ -1,5 +1,5 @@
 a {
-  color: #F7CA18; }
+  color: #FED766; }
 
 .custom-h1, .text-cust {
   font-size: 60px;
@@ -9,12 +9,12 @@ a {
   letter-spacing: -2px; }
 
 .btn-custom {
-  background-color: #F7CA18;
-  border-color: #F7CA18;
+  background-color: #FED766;
+  border-color: #FED766;
   color: #2C3E50; }
 
 .primary-color {
-  color: #F7CA18; }
+  color: #FED766; }
 
 .color-dark {
   color: #2C3E50; }
@@ -62,7 +62,7 @@ a {
   z-index: 1; }
 
 .text-cust {
-  color: #F7CA18; }
+  color: #FED766; }
 
 .custom-span {
   display: block;
@@ -72,7 +72,7 @@ a {
   background-color: #403f3d;
   border-color: #403f3d #403f3d #262524;
   border-radius: 50px;
-  color: #F7CA18; }
+  color: #FED766; }
 
 .about-me-links {
   background-color: #ffffff;
@@ -238,7 +238,7 @@ a {
   text-align: center;
   background: #000;
   padding: 15px 0;
-  color: #F7CA18; }
+  color: #FED766; }
 
 .bar1 {
   position: relative;
@@ -246,5 +246,25 @@ a {
   width: 100%;
   background-color: #fff;
   margin: 15px 0 10px; }
+
+/*  Cycle Section  */
+#cycle {
+  padding: 60px 0; }
+
+.cycle .cycle-box {
+  margin: 50px 10px; }
+.cycle h2 {
+  margin: 20px; }
+.cycle span {
+  font-size: 5em;
+  color: #FED766; }
+.cycle h4 {
+  margin: 20px 0;
+  text-transform: uppercase; }
+.cycle .cycle-card {
+  padding: 25px;
+  box-shadow: 0 0 25px #ccc;
+  border-radius: 8%;
+  margin: 15px; }
 
 /*# sourceMappingURL=main.css.map */
