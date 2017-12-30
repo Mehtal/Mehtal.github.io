@@ -294,13 +294,26 @@ h6 {
 #driver {
   padding:70px 0;
 }
+.driver-card {
+  padding:50px 0;  
+  box-shadow: 0 0 25px #000;
+  background-color: #fed136;
+  text-align: center;
+  margin-bottom: 50px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+   transition:  transform 1s ease-in-out;
+
+}
+.driver-card:hover {
+  transform: rotateY(360deg);
+}
 .driver-member {
   text-align: center;
   margin-bottom: 50px;
 }
 .driver-member img {
   margin: 0 auto;
-  border: 7px solid black;
+  
 }
 .driver-member h4 {
   margin-top: 25px;
@@ -342,7 +355,9 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #fed136;
+  background-color: transparent;
+  border:2px solid black;
+  color: black;
 }
 /* ========== testimonial ============== */
 .testimonial {
