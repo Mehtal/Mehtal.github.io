@@ -1,5 +1,44 @@
-a {
-  color: #FED766; }
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400i");
+body {
+  font-family: 'Ubuntu', sans-serif; }
+
+a, a:hover {
+  color: #FED766;
+  text-decoration: none; }
+
+.ligne-left {
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  background-color: #FED766; }
+
+.ligne-left:after {
+  content: '';
+  height: 13px;
+  width: 3px;
+  background-color: #FED766;
+  position: absolute;
+  top: -5px;
+  right: 0; }
+
+.ligne-right {
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  position: relative;
+  background-color: #FED766;
+  margin: 0 0 10px 10px; }
+
+.ligne-right:before {
+  content: '';
+  height: 13px;
+  width: 3px;
+  background-color: #FED766;
+  position: absolute;
+  top: -5px;
+  left: 0; }
 
 .custom-h1, .text-cust {
   font-size: 60px;
@@ -11,7 +50,13 @@ a {
 .btn-custom {
   background-color: #FED766;
   border-color: #FED766;
-  color: #2C3E50; }
+  color: white;
+  padding: 10px 30px;
+  text-transform: uppercase; }
+
+.btn-custom:hover {
+  background-color: transparent;
+  color: #FED766; }
 
 .primary-color {
   color: #FED766; }
@@ -68,12 +113,6 @@ a {
   display: block;
   color: white; }
 
-.btn-custom {
-  background-color: #403f3d;
-  border-color: #403f3d #403f3d #262524;
-  border-radius: 50px;
-  color: #FED766; }
-
 .about-me-links {
   background-color: #ffffff;
   position: relative; }
@@ -110,13 +149,19 @@ a {
     display: inline-block; }
 
 #portfolio {
-  padding: 60px 0px; }
+  padding: 60px 0px;
+  background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6); }
 
 .port-card {
+  text-align: center;
   margin: 60px 20px;
-  box-shadow: 0px 20px 100px -10px rgba(139, 139, 139, 0.5) !important; }
+  box-shadow: 0px 20px 100px -10px rgba(139, 139, 139, 0.5) !important;
+  padding-bottom: 20px; }
   .port-card img {
     height: 300px; }
+  .port-card a {
+    color: #000;
+    text-decoration: none; }
 
 #skills {
   padding: 60px 0px;

@@ -1,8 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400i');
 $col1 : #2C3E50;
-$col2 : #F7CA18;
+$col2 : #FED766;
 $text-muted : #ccc;
-a {
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+a, a:hover {
 	color: $col2;
+	text-decoration:none;
+}
+.ligne-left {
+	display:inline-block;
+	width:70px;
+	height:3px;
+	position:relative;
+	margin:0 10px 10px 0;
+	background-color:$col2;
+	
+}
+.ligne-left:after{
+	content:'';
+	height:13px;
+	width:3px;
+	background-color:$col2;
+	position:absolute;
+	top:-5px;
+	right:0;
+
+}
+.ligne-right {
+	display:inline-block;
+	width:70px;
+	height:3px;
+	position:relative;
+	background-color:$col2;
+	margin:0 0 10px 10px;
+}
+.ligne-right:before {
+	content:'';
+	height:13px;
+	width:3px;
+	background-color:$col2;
+	position:absolute;
+	top:-5px;
+	left:0;
+
 }
 .custom-h1 {
 	font-size: 60px;
@@ -14,7 +56,14 @@ a {
 .btn-custom {
 	background-color:$col2;
 	border-color:$col2;
-	color:$col1;
+	color:white;
+	padding:10px 30px;
+	text-transform:uppercase;
+
+}
+.btn-custom:hover {
+	background-color:transparent;
+	color:$col2;
 }
 .primary-color {
 	color:$col2;
@@ -78,12 +127,7 @@ a {
 	display:block;
 	color: white;
 }
-.btn-custom {
-	background-color: #403f3d;
-    border-color: #403f3d #403f3d #262524;
-    border-radius:50px;
-    color:$col2;
-}
+
 .about-me-links {
 	background-color:#ffffff;
 	position:relative;
@@ -139,12 +183,19 @@ a {
 
 #portfolio {
 	padding:60px 0px;
+	background:linear-gradient(to bottom, #ffffff 0%, #f6f6f6 );
 }
 .port-card {
+	text-align:center;
 	margin: 60px 20px;
 	box-shadow:0px 20px 100px -10px rgba(139, 139, 139, 0.5) !important;
+	padding-bottom:20px;
 	img {
 		height:300px;
+	}
+	a {
+		color:#000;
+		text-decoration:none
 	}
 }
 #skills {
@@ -303,4 +354,33 @@ a {
 	width:100%;
 	background-color:#fff;
 	margin:15px 0 10px;
+}
+/*  Cycle Section  */
+#cycle {
+	padding: 60px 0;
+
+}
+
+.cycle {
+	.cycle-box {
+		margin:50px 10px;
+	}
+	h2 {
+		margin:20px;
+	}
+	span {
+		font-size: 5em;
+		color: $col2;
+	}
+	h4 {
+		margin: 20px 0;
+		text-transform: uppercase;
+	}
+
+	.cycle-card {
+		padding:25px;
+		box-shadow:0 0 25px #ccc;
+		border-radius:8%;
+		margin:15px;
+	}
 }
