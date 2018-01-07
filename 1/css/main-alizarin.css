@@ -10,7 +10,7 @@ body {
   color: #777777;
 }
 .text-primary {
-  color: #fed136;
+  color: #e74c3c;
   
 }
 .text-sec {
@@ -25,14 +25,14 @@ p.large {
   font-size: 16px;
 }
 a {
-  color :#fff;
+  color:#fff;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
   outline: none;
-  color:#fed136;
+  color:#e74c3c;
 }
 
 h1,
@@ -54,7 +54,7 @@ h6 {
 
 /* ================================= NAVIGATION BAR =============================== */
 .navbar-custom {
-  background-color: #ffce00;
+  background-color: #e74c3c;
   padding-top: 20px;
   padding-bottom: 20px;
   
@@ -72,8 +72,8 @@ h6 {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #ffce00;
-  border-color: #ffce00;
+  background-color: #e74c3c;
+  border-color: #e74c3c;
   font-family: "Amiri" ,Arial, sans-serif,serif;
   text-transform: uppercase;
   color: white;
@@ -98,12 +98,12 @@ h6 {
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #ffce00;
+  background-color: #e74c3c;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #ffce00;
+  background-color: #e74c3c;
 }
 .navbar {
   border: 0px;
@@ -179,7 +179,7 @@ h6 {
 }
 .social-links li a:hover,
 .social-links li a:focus {
-  color: #ffce00;
+  color: #e74c3c;
   outline: none;
 }
 .social-links .nav li a {
@@ -187,7 +187,7 @@ h6 {
   letter-spacing: 1px;
 }
 .cal-num a{
-  color: #ffce00;
+  color: #e74c3c;
   font-weight: bold;
   letter-spacing: 1px;
   padding-right: 20px;
@@ -241,7 +241,7 @@ h6 {
               transform: translate3d(-50%,-50%,0);
 }
 .main-content h1 {
-    color: #fed136;
+    color: #e74c3c;
     font-size: 6em;    
     font-weight: bold;
     margin: 0;
@@ -288,16 +288,16 @@ h6 {
 .btn.btn-lg {padding: 10px 40px;}
 .btn.btn-primary {
     color: #f5f5f5;
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: #e74c3c;
+    border-color: #e74c3c;
     outline: none;
     margin: 20px auto;
 }
 .btn.btn-main-content:hover,
 .btn.btn-main-content:focus {
-    color: #fed136;
+    color: #e74c3c;
     background-color: transparent;
-    border-color: #fed136;
+    border-color: #e74c3c;
     z-index: 3;
    
 }
@@ -389,7 +389,7 @@ h6 {
   text-decoration: none;
   font-size: 11px;
   font-weight: 600;
-  color: #fed136;
+  color: #e74c3c;
   letter-spacing: 1px;
   position: relative;
   text-transform: uppercase;
@@ -400,7 +400,7 @@ h6 {
 /* === download ===*/
 #download {
   padding: 70px 0;
-  background-color: #fed136
+  background-color: #e74c3c
 }
 .doawnload {
 
@@ -434,7 +434,7 @@ h6 {
 .driver-card {
   padding:50px 0;  
   box-shadow: 0 0 25px #000;
-  background-color: #fed136;
+  background-color: #e74c3c;
   text-align: center;
   margin-bottom: 50px;
   -webkit-transition: -webkit-transform .8s ease-in-out;
@@ -508,7 +508,7 @@ ul.social-buttons li a:active {
     background-position: 50% 50%; 
 } 
 .testimonial-overlay {
-    background-color: #fed136;
+    background-color: #e74c3c;
     opacity: .9;
     padding-top: 100px;
     padding-bottom: 100px;

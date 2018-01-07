@@ -104,7 +104,7 @@ $(document).ready(function() {
             
             'use strict';
             
-            var bb = $(this).attr("id");  // ABOUT, CONTACT, DOWNLOAD
+            var bb = $(this).attr("id");  // HOME, SERVICE, DOWNLOAD
             var hei = $(this).outerHeight();
             var grttop = $(this).offset().top - 70;
             
@@ -182,9 +182,11 @@ $(document).ready(function() {
 });
 
 
+// change skin 
+function changeSkin(skin){
+          document.getElementById('sheet').setAttribute('href', skin);
 
-
-
+        }
 
 
 

@@ -13,7 +13,7 @@
       <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
       <!-- Theme CSS -->       
-      <link href="css/main.css" rel="stylesheet">
+      <link id="sheet" href="css/main.css" rel="stylesheet">
       <!-- Animate CSS -->
       <link href="css/animate.css" rel="stylesheet">
    </head>
@@ -23,10 +23,14 @@
             <!-- top bar start -->
             <div class="container">
                <ul class="social-links pull-left list-inline">
-                  <li><a class="fa fa-facebook text-primary"></a></li>
-                  <li><a class="fa fa-twitter text-primary"></a></li>
-                  <li><a class="fa fa-instagram text-primary"></a></li>
-                  <li><a class="fa fa-linkedin text-primary"></a></li>
+                  <li><a class="fa fa-facebook"></a></li>
+                  <li><a class="fa fa-twitter"></a></li>
+                  <li><a class="fa fa-instagram "></a></li>
+                  <li><a class="fa fa-linkedin"></a></li>
+                  <li><a class="fa fa-square" aria-hidden="true" onclick="changeSkin('css/main-blue.css')" style="color:#3498db"></a></li>
+                  <li><a class="fa fa-square" aria-hidden="true" onclick="changeSkin('css/main-emerald.css')" style="color:#2ecc71"></a></li>
+                  <li><a class="fa fa-square" aria-hidden="true" onclick="changeSkin('css/main-alizarin.css')" style="color:#e74c3c"></a></li>
+                  <li><a class="fa fa-square" aria-hidden="true" onclick="changeSkin('css/main.css')" style="color:#fed136"></a></li>
                </ul>
                <ul class="list-inline cal-num pull-right">
                   <li><a class="fa fa-phone fa-fw"></a>1-845-713-0258</li>
@@ -313,7 +317,8 @@
       </section>
       <!-- Testimonials -->
       <footer class="footer text-primary">
-         <p>Copyright (C) 2016</p>
+          <p>Copyright (C) 2016</p> 
+        
       </footer>
       <!-- main js files -->
       <script src="js/jquery-3.1.1.min.js"></script>
@@ -321,5 +326,6 @@
       <!-- custom js -->
       <script src="js/custom.js"></script>
       <script src="js/wow.min.js"></script>
+     
    </body>
 </html>
