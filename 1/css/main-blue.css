@@ -156,7 +156,7 @@ h6 {
         overflow: hidden!important;
     }
 }
-@media screen and (max-width: 480px) {
+@media  (max-width: 480px) {
     .tab-icon {
       padding: 7px 20px;
       display: flex !important;
