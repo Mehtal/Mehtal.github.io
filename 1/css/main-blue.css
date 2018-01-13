@@ -1,4 +1,3 @@
-@import "nm.css";
 @import url(https://fonts.googleapis.com/css?family=Oswald:700|Roboto:300,300i,400,700);
 
 body {
@@ -25,9 +24,8 @@ p.large {
   font-size: 16px;
 }
 a {
-  color:#fff;
+  color :#fff;
 }
-
 a:hover,
 a:focus,
 a:active,
@@ -157,6 +155,36 @@ h6 {
     .collapsing {
         overflow: hidden!important;
     }
+}
+@media screen and (max-width: 480px) {
+    .tab-icon {
+      padding: 7px 20px;
+      display: flex !important;
+      align-items: stretch;
+      flex-flow: row nowrap;
+      width: 100%;
+      list-style: none;
+  
+  }
+
+    .tab-icon li {
+      flex-grow: 1;
+      list-style: none;
+
+  }
+    .tab-icon li a {
+      color:black;
+  }
+  .cal-num {
+      display: none !important;
+    }
+  .navbar-toggle {
+    display: none !important;
+}
+  
+  .navbar-brand {
+    display: none !important;
+  }
 }
 
 /* ====/top bar ====*/ 
