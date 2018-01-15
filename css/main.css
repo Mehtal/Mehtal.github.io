@@ -312,4 +312,8 @@ a, a:hover {
   border-radius: 8%;
   margin: 15px; }
 
+@media (max-width: 768px) {
+  .img-cust {
+    display: none; } }
+
 /*# sourceMappingURL=main.css.map */
